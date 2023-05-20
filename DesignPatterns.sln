@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution  Items", "Solution  Items", "{56125279-2783-45B7-A59C-428872A07704}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D16560F3-848B-491D-A77E-A4E63369F846}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CreationalPatterns", "CreationalPatterns", "{E8838506-C1C8-43FB-9E61-9E87F6F0AF4D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StructuralPatterns", "StructuralPatterns", "{901563EB-EE0B-4F77-B027-E90F5EAC7D70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BehavioralPatterns", "BehavioralPatterns", "{52B974E7-A927-4645-861C-FEA27003E4D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "src\BehavioralPatterns\ChainOfResponsibility\ChainOfResponsibility.csproj", "{BB42A47B-4DE5-45B5-BBE2-DF6077FBED05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "src\CreationalPatterns\FactoryMethod\FactoryMethod.csproj", "{0A923EC5-960E-420C-A5AB-045AEBFD73D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "src\StructuralPatterns\Adapter\Adapter.csproj", "{7ECEDF9A-8019-440F-9172-429987234088}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB42A47B-4DE5-45B5-BBE2-DF6077FBED05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB42A47B-4DE5-45B5-BBE2-DF6077FBED05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB42A47B-4DE5-45B5-BBE2-DF6077FBED05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB42A47B-4DE5-45B5-BBE2-DF6077FBED05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A923EC5-960E-420C-A5AB-045AEBFD73D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A923EC5-960E-420C-A5AB-045AEBFD73D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A923EC5-960E-420C-A5AB-045AEBFD73D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A923EC5-960E-420C-A5AB-045AEBFD73D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ECEDF9A-8019-440F-9172-429987234088}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ECEDF9A-8019-440F-9172-429987234088}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ECEDF9A-8019-440F-9172-429987234088}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ECEDF9A-8019-440F-9172-429987234088}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E8838506-C1C8-43FB-9E61-9E87F6F0AF4D} = {D16560F3-848B-491D-A77E-A4E63369F846}
+		{901563EB-EE0B-4F77-B027-E90F5EAC7D70} = {D16560F3-848B-491D-A77E-A4E63369F846}
+		{52B974E7-A927-4645-861C-FEA27003E4D5} = {D16560F3-848B-491D-A77E-A4E63369F846}
+		{BB42A47B-4DE5-45B5-BBE2-DF6077FBED05} = {52B974E7-A927-4645-861C-FEA27003E4D5}
+		{0A923EC5-960E-420C-A5AB-045AEBFD73D5} = {E8838506-C1C8-43FB-9E61-9E87F6F0AF4D}
+		{7ECEDF9A-8019-440F-9172-429987234088} = {901563EB-EE0B-4F77-B027-E90F5EAC7D70}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01BE6915-871A-4F87-B60A-8699137B5077}
+	EndGlobalSection
+EndGlobal
