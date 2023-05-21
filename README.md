@@ -10,3 +10,17 @@ You can’t just find a pattern and copy it into your program, the way you can wit
 Patterns are often confused with algorithms, because both concepts describe typical solutions to some known problems. While an algorithm always defines a clear set of actions that can achieve some goal, a pattern is a more high-level description of a solution. The code of the same pattern applied to two different programs may be different.
 
 An analogy to an algorithm is a cooking recipe: both have clear steps to achieve a goal. On the other hand, a pattern is more like a blueprint: you can see what the result and its features are, but the exact order of implementation is up to you.
+
+## The Catalog of Design Patterns
+
+### Creational patterns
+
+These patterns provide various object creation mechanisms, which increase flexibility and reuse of existing code.
+
+### Structural patterns
+
+These patterns explain how to assemble objects and classes into larger structures while keeping these structures flexible and efficient.
+
+### Behavioral patterns
+
+These patterns are concerned with algorithms and the assignment of responsibilities between objects.
