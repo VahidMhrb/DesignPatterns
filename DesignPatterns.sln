@@ -26,7 +26,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "src\StructuralPa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command", "src\BehavioralPatterns\Command\Command.csproj", "{857F3C44-A7FF-4765-8834-EDA9FFA8F6CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "src\CreationalPatterns\Builder\Builder.csproj", "{282EF920-566F-438E-942C-4C492BF1D9A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "src\CreationalPatterns\Builder\Builder.csproj", "{282EF920-566F-438E-942C-4C492BF1D9A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor", "src\BehavioralPatterns\Visitor\Visitor.csproj", "{CA498A0D-DEC9-4182-B870-1E0666C3E5C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -54,6 +56,10 @@ Global
 		{282EF920-566F-438E-942C-4C492BF1D9A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{282EF920-566F-438E-942C-4C492BF1D9A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{282EF920-566F-438E-942C-4C492BF1D9A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA498A0D-DEC9-4182-B870-1E0666C3E5C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA498A0D-DEC9-4182-B870-1E0666C3E5C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA498A0D-DEC9-4182-B870-1E0666C3E5C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA498A0D-DEC9-4182-B870-1E0666C3E5C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +73,7 @@ Global
 		{7ECEDF9A-8019-440F-9172-429987234088} = {901563EB-EE0B-4F77-B027-E90F5EAC7D70}
 		{857F3C44-A7FF-4765-8834-EDA9FFA8F6CA} = {52B974E7-A927-4645-861C-FEA27003E4D5}
 		{282EF920-566F-438E-942C-4C492BF1D9A6} = {E8838506-C1C8-43FB-9E61-9E87F6F0AF4D}
+		{CA498A0D-DEC9-4182-B870-1E0666C3E5C6} = {52B974E7-A927-4645-861C-FEA27003E4D5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {01BE6915-871A-4F87-B60A-8699137B5077}
