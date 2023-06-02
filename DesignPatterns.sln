@@ -44,7 +44,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator", "src\BehavioralP
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "src\CreationalPatterns\AbstractFactory\AbstractFactory.csproj", "{D6292414-F7EF-4D77-97AF-33FC1DD36FAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "src\CreationalPatterns\Prototype\Prototype.csproj", "{0489678B-9C10-44AB-8FF5-F7DE2A34EA9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "src\CreationalPatterns\Prototype\Prototype.csproj", "{0489678B-9C10-44AB-8FF5-F7DE2A34EA9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "src\StructuralPatterns\Proxy\Proxy.csproj", "{5377DF3E-42B5-4F27-AB0A-69BC9CD635CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -108,6 +110,10 @@ Global
 		{0489678B-9C10-44AB-8FF5-F7DE2A34EA9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0489678B-9C10-44AB-8FF5-F7DE2A34EA9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0489678B-9C10-44AB-8FF5-F7DE2A34EA9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5377DF3E-42B5-4F27-AB0A-69BC9CD635CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5377DF3E-42B5-4F27-AB0A-69BC9CD635CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5377DF3E-42B5-4F27-AB0A-69BC9CD635CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5377DF3E-42B5-4F27-AB0A-69BC9CD635CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -130,6 +136,7 @@ Global
 		{CED6E2C3-A93F-4D72-80FE-93C7AEEA21D6} = {52B974E7-A927-4645-861C-FEA27003E4D5}
 		{D6292414-F7EF-4D77-97AF-33FC1DD36FAC} = {E8838506-C1C8-43FB-9E61-9E87F6F0AF4D}
 		{0489678B-9C10-44AB-8FF5-F7DE2A34EA9C} = {E8838506-C1C8-43FB-9E61-9E87F6F0AF4D}
+		{5377DF3E-42B5-4F27-AB0A-69BC9CD635CC} = {901563EB-EE0B-4F77-B027-E90F5EAC7D70}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {01BE6915-871A-4F87-B60A-8699137B5077}
